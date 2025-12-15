@@ -1,0 +1,34 @@
+# Build artifacts
+*.exe
+*.test
+*.out
+
+# Cache files
+.indexer_cache.json
+*.cache
+.mcp.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.key
+
+# Logs
+*.log
+
+# RAG Index
+.index/
+
+# ignoring go builds
+mcp-server
+indexer
